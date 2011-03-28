@@ -1,3 +1,4 @@
+
 package com.elmakers.mine.bukkit.plugins.wandmin;
 
 import java.io.BufferedWriter;

@@ -1,5 +1,9 @@
 # CHANGELOG
 
+## 0.35
+
+ - Update for lots of Bukkit API changes, and Persistence refactor.
+
 ## 0.30
 
  - Removed PLAYER_COMMAND support, 'cause it's gone.

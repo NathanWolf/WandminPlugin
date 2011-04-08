@@ -1,9 +1,11 @@
 name: Wandmin
 main: com.elmakers.mine.bukkit.plugins.wandmin.WandminPlugin
-version: 0.30
+version: 0.35
 website: http://mine.elmakers.com
 author: NathanWolf
 description : A Magic Wand for "casting" console commands
+depend:
+ - Persistence
 commands:
   wandmin:
     description: Configure your wands

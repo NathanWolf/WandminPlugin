@@ -230,8 +230,7 @@ public class WandminPlugin extends JavaPlugin
 		
         PluginManager pm = getServer().getPluginManager();
 		
-        pm.registerEvent(Type.PLAYER_ANIMATION, playerListener, Priority.Normal, this);
-        pm.registerEvent(Type.PLAYER_ITEM, playerListener, Priority.Normal, this);
+        pm.registerEvent(Type.PLAYER_INTERACT, playerListener, Priority.Normal, this);
         pm.registerEvent(Type.PLAYER_JOIN, playerListener, Priority.Normal, this);
         pm.registerEvent(Type.PLAYER_QUIT, playerListener, Priority.Normal, this);
         
